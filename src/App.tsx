@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
+import amorImage from './assets/amor.jpeg';
 import hitSound from './assets/chaves-pancada.mp3';
 import hammerImage from './assets/hammer.png';
-import love from './assets/love.jpeg';
-import pointing from './assets/pointing.png';
+import pImage from './assets/p.png';
 import clapSound from './assets/salma-de-palmas.mp3';
 import yoImage from './assets/yo.png';
 
@@ -13,7 +13,7 @@ interface Rect {
   bottom: number;
   width: number;
   height: number;
-}
+} 
 
 const App: React.FC = () => {
   const [moveCount, setMoveCount] = useState(0);
@@ -141,7 +141,7 @@ const App: React.FC = () => {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '50px' }}>
         <img
           ref={centralImageRef}
-          src={love}
+          src={amorImage}
           alt="Imagem Central"
           style={{
             width: 200,
@@ -152,7 +152,7 @@ const App: React.FC = () => {
           }}
         />
         <img
-          src={pointing}
+          src={pImage}
           alt="Apontador"
           style={{
             width: 120,
