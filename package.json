@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alessonjrt.github.io/julia-the-best-gf-ww",
+  "homepage": "https://alessonjrt.github.io/julia-the-best-gf-ww/",
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn build",
