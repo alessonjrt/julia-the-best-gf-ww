@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import hitSound from './assets/chaves-pancada.mp3';
 import hammerImage from './assets/hammer.png';
+import love from './assets/love.jpeg';
+import pointing from './assets/pointing.png';
 import clapSound from './assets/salma-de-palmas.mp3';
 import yoImage from './assets/yo.png';
 
@@ -139,7 +141,7 @@ const App: React.FC = () => {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '50px' }}>
         <img
           ref={centralImageRef}
-          src="src/assets/love.jpeg"
+          src={love}
           alt="Imagem Central"
           style={{
             width: 200,
@@ -150,7 +152,7 @@ const App: React.FC = () => {
           }}
         />
         <img
-          src="src/assets/pointing.png"
+          src={pointing}
           alt="Apontador"
           style={{
             width: 120,
